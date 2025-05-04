@@ -19,7 +19,7 @@ To run any of the C++ programs in this repo:
 1. **Clone the repo**:
 
     ```bash
-    git clone https://github.com/your-username/cpp-learning-journey.git
+    git clone https://github.com/schak04/cpp-learning-journey.git
     ```
 
 2. **Navigate into the project folder**:
