@@ -1,0 +1,7 @@
+*.exe
+CPP*.cpp
+main.cpp
+[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9].cpp
+*.txt
+.vscode
+test*.cpp
