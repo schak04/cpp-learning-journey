@@ -39,5 +39,5 @@ To run any of the C++ programs in this repo:
 
 Each `.cpp` file is named based on the concept it demonstrates.
 
-🔄 Ongoing Progress
+## 🔄 Ongoing Progress
 This repository is a work in progress. I will continue to add more code and examples as I explore new C++ concepts, projects, and challenges. Stay tuned for more updates!
