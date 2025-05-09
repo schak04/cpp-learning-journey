@@ -1,6 +1,6 @@
 # C++ Programming - Learning Journey
 
-Welcome to my **C++ Programming** repository! This repo contains the code I wrote while learning C++ for the first time.
+Welcome to my **C++ Programming** repository! This repo contains the code I wrote while learning C++ for the first time. It serves as a personal reference and may help others who are just starting out as well.
 
 ## 📚 Topics Covered
 
@@ -38,3 +38,6 @@ To run any of the C++ programs in this repo:
 ## 📝 Files
 
 Each `.cpp` file is named based on the concept it demonstrates.
+
+🔄 Ongoing Progress
+This repository is a work in progress. I will continue to add more code and examples as I explore new C++ concepts, projects, and challenges. Stay tuned for more updates!
