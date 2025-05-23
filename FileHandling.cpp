@@ -31,11 +31,11 @@ C++ provides the fstream class with the seekg() for input and seekp() for output
 using namespace std;
 
 int main(){
-    // ofstream infile("C:\\College Work\\File Handling CPP\\K23TQ.txt");
+    // ofstream infile("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\K23TQ.txt");
     // infile<<"I am studying file handling in C++";
     // infile.close();
 
-    // ofstream multTable("C:\\College Work\\File Handling CPP\\Multiplication_Table.txt");
+    // ofstream multTable("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\Multiplication_Table.txt");
     // cout<<"Enter the number whose multiplication table you want to be printed: ";
     // int num;
     // cin>>num;
@@ -44,23 +44,23 @@ int main(){
     // }
     // multTable.close();
 
-    // ofstream outfile("C:\\College Work\\File Handling CPP\\sample.txt");
+    // ofstream outfile("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\sample.txt");
     // outfile<<"Hello World";
     // outfile.close();
     // string s;
-    // ifstream infile("C:\\College Work\\File Handling CPP\\sample.txt");
+    // ifstream infile("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\sample.txt");
     // getline(infile, s);
     // cout<<s;
     // infile.close();
     // cout<<"\nProgram ran successfully!";
 
     // ofstream fout;
-    // fout.open("C:\\College Work\\File Handling CPP\\country.txt");
+    // fout.open("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\country.txt");
     // fout<<"India"<<endl;
     // fout<<"Britain"<<endl;
     // fout<<"America"<<endl;
     // fout.close();
-    // fout.open("C:\\College Work\\File Handling CPP\\capital.txt");
+    // fout.open("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\capital.txt");
     // fout<<"Delhi"<<endl;
     // fout<<"London"<<endl;
     // fout<<"Washington"<<endl;
@@ -70,28 +70,28 @@ int main(){
     // int n=80;
     // char s[n];
     // ifstream fin;
-    // fin.open("C:\\College Work\\File Handling CPP\\country.txt");
+    // fin.open("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\country.txt");
     // while (fin) {
     //     fin.getline(s, n);
     //     cout<<s<<endl;
     // }
     // fin.close();
-    // fin.open("C:\\College Work\\File Handling CPP\\capital.txt");
+    // fin.open("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\capital.txt");
     // while (fin) {
     //     fin.getline(s, n);
     //     cout<<s<<endl;
     // }
     // fin.close();
-    // fout.open("C:\\College Work\\File Handling CPP\\country.txt", ios::app);
+    // fout.open("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\country.txt", ios::app);
     // fout<<"Japan"<<endl;
-    // fout.open("C:\\College Work\\File Handling CPP\\capital.txt", ios::app);
+    // fout.open("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\capital.txt", ios::app);
     // fout<<"Tokyo"<<endl;
     // cout<<"!Done";
 
     // char s[30];
     // ofstream fileout;
     // ifstream filein;
-    // fileout.open("C:\\College Work\\File Handling CPP\\data", ios::app);
+    // fileout.open("C:\\Users\\schak\\Documents\\Career and Studies\\XYZ\\File Handling CPP\\data", ios::app);
     // fileout<<"Hello World!"<<endl;
     // fileout.close();
     // filein.open("data", ios::in);
