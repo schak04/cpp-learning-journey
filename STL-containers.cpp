@@ -31,6 +31,7 @@ Each block below is self-contained. Uncomment the relevant section in `main()` t
 #include <unordered_set>
 #include <map>
 #include <unordered_map>
+#include <string>
 using namespace std;
 
 /* ARRAY */
@@ -57,12 +58,13 @@ void dequeExample() {
     dq.push_front(1);
     dq.push_back(8);
     dq.pop_front();
+    dq.pop_back();
     cout << "Deque: ";
     for (int i : dq) cout << i << " ";
     cout << endl;
 }
 
-/* LIST */
+/* LIST -> Doubly Linked List */
 void listExample() {
     list<int> l = {10, 20, 30};
     l.push_front(5);
@@ -73,7 +75,7 @@ void listExample() {
     cout << endl;
 }
 
-/* FORWARD_LIST */
+/* FORWARD_LIST -> Singly Linked List */
 void forwardListExample() {
     forward_list<int> fl = {10, 20, 30};
     fl.push_front(5);
@@ -101,7 +103,7 @@ void queueExample() {
     cout << "After pop, front: " << q.front() << endl;
 }
 
-/* SET */
+/* SET -> implemented as Binary Search Trees */
 void setExample() {
     set<int> s = {5, 2, 9, 1, 5};
     s.insert(3);
@@ -125,7 +127,9 @@ void mapExample() {
     m["apple"] = 5;
     m["banana"] = 2;
     cout << "Map:\n";
-    for (auto [key, val] : m) cout << key << ": " << val << endl;
+    for (auto it = m.begin(); it != m.end(); ++it) {
+        cout << it->first << ": " << it->second << endl;
+    }
 }
 
 /* UNORDERED_MAP */
@@ -134,7 +138,9 @@ void unorderedMapExample() {
     um["dog"] = 3;
     um["cat"] = 1;
     cout << "Unordered Map:\n";
-    for (auto [k, v] : um) cout << k << ": " << v << endl;
+    for (auto it = um.begin(); it != um.end(); ++it) {
+        cout << it->first << ": " << it->second << endl;
+    }
 }
 
 /* MAIN */
