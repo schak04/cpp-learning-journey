@@ -87,6 +87,27 @@ struct CompareItem {
 
 int main() {
     // Declare a min-heap of Item using custom comparator
+    /*
+    About the template parameters passed to priority_queue within the angle brackets:
+
+    Task:
+      The type of elements stored in the queue (here, your custom Task class).
+
+    vector<Task>:
+      The container used to store the elements internally.
+      By default, priority_queue uses a vector, but you could use another container (like deque).
+      Here, you’re being explicit: use a vector of Task.
+
+    CompareTask:
+      The comparison functor (object with operator()) that determines the order of elements.
+      By default, priority_queue uses std::less<T>, which creates a max-heap.
+      You want a min-heap, so you provide your own comparator.
+
+    Why do you need to specify all three?
+      The default priority_queue is for built-in types (like int) and uses std::less<int>.
+      For custom types (like Task), the compiler doesn’t know how to compare them, so you must provide a comparator.
+      You also need to specify the container type if you’re providing a custom comparator.
+    */
     priority_queue<Item, vector<Item>, CompareItem> itemQueue;
 
     // Add some items
