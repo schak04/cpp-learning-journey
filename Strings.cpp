@@ -278,3 +278,18 @@
 //     cout << "Converted string: " << str << endl;  // Output: 456
 //     return 0;
 // }
+
+
+/*
+String Streams:
+    stringstream is a stream class to operate on strings. It implements input/output operations on memory (string) based streams.
+    stringstream can be helpful in different types of parsing.
+    The following operators/functions are commonly used here:
+    Operator >> Extracts formatted data.
+    Operator << Inserts formatted data.
+    Method str() Gets the contents of underlying string device object.
+    Method str(string) Sets the contents of underlying string device object.
+    Its header file is sstream.
+    It is part of the C++ Standard Library and requires including the <sstream> header. 
+*/
+
