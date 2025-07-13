@@ -44,6 +44,8 @@ void arrayExample() {
 
 /* VECTOR */
 void vectorExample() {
+    // vector<int> v1(5); -> declare a vector of size 5
+    // vector<int> v1(5, 1); -> declare a vector of size 5, all elements initialized to 1
     vector<int> v = {10, 20, 30};
     v.push_back(40);
     v.pop_back();
